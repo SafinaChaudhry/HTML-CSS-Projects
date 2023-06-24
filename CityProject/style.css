@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+body{
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    background: rgb(244, 243, 243);
+}
+
+.hero{
+    height: 350px;
+    background-image: url(images/Rawal_Lake_Eastern_Bank.jpg);
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 0px;
+    
+
+}
+
+.hero-intro{
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #1D3557;
+    padding: 10px 10px 5px 5px;
+    
+}
+
+.emphasis{
+    color: rgb(227, 26, 26);
+}
+
+.hero-header{
+    text-shadow: 0px 0px 5px black;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.activity-header, .food-header{
+    padding-top: 10px;
+}
+
+.activity-img{
+    width: 250px;
+    height: 200px;
+}
+
+.activity-img-faisal{
+    width: 250px;
+    height: 200px;
+    background-image: url(images/FaisalMosque.jpg);
+
+}
+
+.activity-img-Lok-Virsa{
+    width: 250px;
+    height: 200px;
+    background-image: url(images/LokVirsa.jpg);
+    background-size: cover;
+}
+
+.activity-img-Lok-Virsa:hover{
+    background-image: url(images/LokVisaHover.jpg);
+    background-size: cover;
+}
+
+.activity-img-Nila{
+    width: 250px;
+    height: 200px;
+    background-image: url(images/Nila-Sandh.jpg);
+    background-size: cover;
+}
+
+.activity-img-Nila:hover{
+    background-image: url(images/Nila.jpg);
+    background-size: cover;
+}
+
+.activity-img-faisal{
+    width: 250px;
+    height: 200px;
+    background-image: url(images/FaisalMosque.jpg);
+
+}
+
+.activity-img-faisal:hover{
+   background-image: url(images/islamabad-faisal.gif);
+   background-size: cover;
+}
+
+.activity-container-info, .food-container-info{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    
+}
+
+.food-container{
+    margin-top: 40px;
+}
+
+
+
+.food-img-savor{
+    width: 250px;
+    height: 200px;
+    background-image: url(images/Savor.jpg);
+    background-size: cover;
+
+}
+
+.food-img-monal{
+    width: 250px;
+    height: 200px;
+    background-image: url(images/Monal.jpg);
+    background-size: cover;
+}
+
+.food-img-HalwaPuri{
+    width: 250px;
+    height: 200px;
+    background-image: url(images/HalwaPuri.jpg);
+    background-size: cover;
+
+}
+
+
+.subactivity-container, .food-subcontainer{
+    width: 250px;
+    height: 300px;
+    padding: 20px;
+    border: 0.1px solid #d8d5d5;
+    background-color: white;
+    box-shadow: 0 0.5rem 1rem rgba(15, 15, 15, 0.2);
+
+}
+
+h3,h4{
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.activity-para{
+    margin-top: -5px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 13px;
+    color: #666;
+}
+
+.vistor-link-container{
+    margin-top: 30px;
+}
+
+.footer{
+    margin-top: 30px;
+    background-color: black;
+    color:white;
+    height: 70px;
+}
+
+.footer p{
+   margin-top: 20px;
+}
